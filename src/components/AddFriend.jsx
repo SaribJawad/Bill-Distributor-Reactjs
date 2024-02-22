@@ -3,7 +3,6 @@ import { useState } from "react";
 export default function AddFriend({ friends, setFriends, addFriend }) {
   const [name, setName] = useState("");
   const [image, setImage] = useState("https://i.pravatar.cc/48");
-  const [selectedFriend, setSelectedFriend] = useState(null);
 
   function handleSubmit(e) {
     e.preventDefault();
